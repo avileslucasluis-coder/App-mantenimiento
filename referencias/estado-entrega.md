@@ -5,21 +5,20 @@ Se mantienen Inventarios y Mantenimiento al mismo nivel por decisión del proyec
 ## Comprobado localmente
 
 - Flutter: análisis sin avisos y 24 pruebas aprobadas.
-- API: lint sin errores, 11 pruebas unitarias y una prueba e2e aprobadas.
+- API: lint sin errores, 12 pruebas unitarias y ocho pruebas e2e aprobadas.
 - Suite HTTP adicional de ocho escenarios implementada, incluyendo stock insuficiente y concurrencia; ejecutada durante la integración inicial.
 - Providers por entidad y sesión, registrados en la raíz; contratos de repositorio.
 - Tema claro, oscuro y sistema seleccionables desde perfil.
 - Errores Dio traducidos a ApiException en los repositorios.
 - Confirmación de guardado y registro de movimientos.
-- Flujos de CI preparados para ambos repositorios; todavía sin ejecución remota verificada.
+- Flujos de CI aprobados en ambos repositorios. Los cambios posteriores vuelven a ejecutar las verificaciones.
 
 ## Pendientes que no deben presentarse como terminados
 
 - Comparación visual completa con ambos Figma; la paleta oscura no tiene captura de referencia.
 - Formularios y detalles todavía usan estado local para algunos datos cargados.
 - Confirmación al descartar cambios del formulario.
-- Ocho pruebas e2e integradas al comando de la rúbrica: actualmente solo hay una; la suite HTTP separada tiene ocho escenarios.
-- Health de API con comprobación de base de datos, RLS, revisión completa de seguridad y colección Bruno.
+- RLS, revisión completa de seguridad y colección Bruno.
 - APK release con firma propia, icono propio y prueba de instalación.
 - API pública en Render y URL real documentada.
 - Capturas de la app ejecutándose, distintas de las referencias Figma.
