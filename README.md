@@ -180,3 +180,7 @@ Se ajustaron acceso, tarjetas de producto, badges, búsqueda y estilos compartid
 ## Automatización
 
 El flujo `.github/workflows/ci.yml` ejecuta análisis, pruebas y compilación web en cada push o Pull Request. Está preparado localmente; su ejecución en GitHub se verificará cuando el proyecto se publique en el repositorio propio. La dirección local usada en esa compilación solo sirve para verificar el build, no es una entrega de producción.
+
+## Procedencia
+
+La base inicial procede del [material de clase de Alex García](https://github.com/alegarciaaitec/app-mantenimiento). Este repositorio inicia un historial propio a partir de su importación; se conserva el crédito del material original en [PROCEDENCIA.md](PROCEDENCIA.md).
